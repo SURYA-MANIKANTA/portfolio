@@ -1,0 +1,89 @@
+body{
+    background-color:#540d6e;
+}
+#sun{
+    font-style: italic;
+}
+.surya{
+    text-shadow:6px 6px red;
+}
+.coder{
+    text-shadow:6px 6px darkviolet;
+}
+.developer{
+    text-shadow:6px 6px darkgreen;
+}
+
+.pic{
+    height: 400px;
+    width: 500px;
+    animation: rotate 1s ;   
+}
+.pic-details{
+    height:700px;
+    width:700px;
+    animation:zoom 3s;
+    padding-top:80px;
+    padding-left: 120px;
+}
+.hello{
+    padding:5% 5%;
+}
+
+.container-fluid{
+    background-color: aqua;
+}
+.al{
+  padding:60px 15px;
+}
+
+.details{
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 40px;
+}
+@keyframes rotate{
+    from{transform:
+        scaleX(0%)
+        scaleY(0%)
+    }
+    
+    to{transform:
+        scaleX(100%)
+        scaleY(100%)
+    }
+}
+@keyframes zoom{
+    50%{
+        background-color: purple;
+    }
+    100%{
+        background-color: orange;
+    }
+}
+.cert{
+    height: 500px;
+    width:500px;
+}
+/*certificates*/
+.cert-name{
+    font-style: inherit;
+    font-size: 50px;
+    color:gold;
+    margin:10px 10px;
+    height:100px;
+    width:300px;
+    padding-left:50px;
+}
+.cert1{
+    padding-left: 500px;
+    padding-top: 150px;
+}
+#cerificates{
+    margin:20px 20px 20px 20px;
+}
+
+
+
